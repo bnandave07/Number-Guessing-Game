@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc7b30;
+}
+.container{
+    background-color: white;
+    border-radius: 50px;
+    
+}
+.head{
+    padding: 30px;
+    border: 2px;
+    border: 2px solid #dc7b30;
+}
+.entry{
+    margin: 20px;
+    text-align: center;
+}
+
+.entry input{
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border: 4px solid #fa6400;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+}
+
+
+#btn{
+    height: 50px;
+    width: 90px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #d16c1f;
+}
+.wrong{
+    color: red;
+}
+
+.congrulation {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    animation: slideInFromTop 1s ease-in-out forwards; /* Apply animation */
+    display: none; /* Initially hide the congrulation div */
+}
+
+@keyframes slideInFromTop {
+    0% {
+        top: -500px; /* Start off-screen */
+    }
+    100% {
+        top: 30px; /* Slide in to top */
+    }
+}
+
+.cong-img img{
+    height: 300px;
+    width: 500px;
+    margin-left: 150px;
+   
+   
+
+
+}
+
+.congrats{
+    font-size: 30px;
+    font-family: cursive;
+    color: green;
+    margin-left: 210px;
+    
+}
+#play-again{
+height: 50px;
+width: 200px;
+margin-top: 20px;
+border-radius: 50px;
+background-color: orange;
+color: white;
+font-size: 20px;
+cursor: pointer;
+margin-left: 290px;
+}
+#play-again:hover{
+    background-color: rgb(171, 219, 13);
+}
+.result{
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 240px;
+    margin-top: 20px;
+}
